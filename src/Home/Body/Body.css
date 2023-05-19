@@ -1,0 +1,14 @@
+.banner-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(236 252 203);
+    padding: 100px 40px 20px 20px;
+}
+.banner-title{
+    font-size: 40px;
+    font-family: bold;
+}
+.right-banner img{
+    height: 260px;
+    width: 100%;
+}
