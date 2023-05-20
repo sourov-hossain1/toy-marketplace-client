@@ -157,6 +157,19 @@ const Body = () => {
                     </div>
                 </div>
             </div>
+
+            {/* extra part */}
+            <h2 className='text-center font-bold text-[35px] mt-[32px] mb-2'>AI Based Toy</h2>
+            <div className='extra-part-two'>
+                <div>
+                    <img className='rounded-md' src="https://techcrunch.com/wp-content/uploads/2023/01/Little-Robots-collage-1-e1673991425721.jpeg?w=1024" alt="" />
+                </div>
+                <div className='my-auto'>
+                   <h2 className='font-bold text-[23px] text-center'>AI Toys</h2>
+                   <h4 className='ps-4'>AI toys are interactive toys that incorporate artificial intelligence technology to provide engaging and educational experiences for children. These toys often use machine learning algorithms and voice recognition to respond to commands or questions from children. They can engage in conversations, play games, teach various subjects, and even adapt their responses based on the child interactions. AI toys help promote cognitive development, problem-solving skills, and creativity in children while offering a fun and interactive playtime experience.</h4>
+                   <button className='btn btn-primary ms-4 mt-4'>Details</button>
+                </div>
+            </div>
         </div>
     );
 };
