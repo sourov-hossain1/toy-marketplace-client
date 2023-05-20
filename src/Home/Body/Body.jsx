@@ -12,45 +12,34 @@ const Body = () => {
                     <button className='bg-primary text-white p-2 rounded-md mt-4'>Get Your Toys</button>
                 </div>
                 <div className='right-banner'>
-                    <img src="" alt="" />
+                    <img src="https://hips.hearstapps.com/hmg-prod/images/index-mcu-2-1668177134.jpg?crop=0.888888888888889xw:1xh;center,top&resize=1200:*" alt="" />
                 </div>
             </div>
             {/* gallery section */}
-            <h3 className='text-center font-bold text-[40px] mt-4 mb-2'>Gallery Section</h3>
-            <div className='flex gap-3'>
-                <div className="card w-96 bg-base-100 shadow-xl">
-                    <figure><img className='h-[220px]' src="https://marveltoynews.com/wp-content/uploads/2016/05/Marvel-Legends-Civil-War-Spider-Man-Photo-Hi-Res.jpg" alt="Shoes" /></figure>
-                    <div className="card-body">
-                        <h2 className="card-title">Shoes!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
-                        <div className="card-actions justify-end">
-                            <button className="btn btn-primary">Buy Now</button>
-                        </div>
-                    </div>
+            <h3 className='text-center font-bold text-[35px] mt-[30px] mb-2'>Gallery of Toys</h3>
+            <div className='gallery-section'>
+                <div className='g-one bg-base-100 shadow-xl'>
+                    <img src="https://i.ytimg.com/vi/DpQdJl6c0UU/maxresdefault.jpg" alt="" />
                 </div>
-                <div className="card w-96 bg-base-100 shadow-xl">
-                    <figure><img className='h-[220px]' src="https://c1-ebgames.eb-cdn.com.au/merchandising/images/packshots/e0ac67d423a749c48a43a178d4e0fdae_Large.jpg" alt="Shoes" /></figure>
-                    <div className="card-body">
-                        <h2 className="card-title">Shoes!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
-                        <div className="card-actions justify-end">
-                            <button className="btn btn-primary">Buy Now</button>
-                        </div>
-                    </div>
+                <div className='g-one bg-base-100 shadow-xl'>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa-mrlMN9r5aiXMX5tFIQ8tYePRm9pME_9ag&usqp=CAU" alt="" />
                 </div>
-                <div className="card w-96 bg-base-100 shadow-xl">
-                    <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5XM1DePVAtoMouvoxnFwUnLHyJuFW72ZYrg&usqp=CAU" alt="Shoes" /></figure>
-                    <div className="card-body">
-                        <h2 className="card-title">Shoes!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
-                        <div className="card-actions justify-end">
-                            <button className="btn btn-primary">Buy Now</button>
-                        </div>
-                    </div>
+                <div className='g-one bg-base-100 shadow-xl'>
+                    <img src="https://i.pinimg.com/originals/7e/0e/4e/7e0e4e60f79264bb16c335082f76dc76.jpg" alt="" />
+                </div>
+                <div className='g-one bg-base-100 shadow-xl'>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa-mrlMN9r5aiXMX5tFIQ8tYePRm9pME_9ag&usqp=CAU" alt="" />
+                </div>
+                <div className='g-one bg-base-100 shadow-xl'>
+                    <img src="https://www.laughingplace.com/w/wp-content/uploads/2022/06/hasbro-marvel-legends-thor-love-and-thunder-shopdisney.jpeg" alt="" />
+                </div>
+                <div className='g-one bg-base-100 shadow-xl'>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbtP_GNAL57oti-rEoAa-bbuw5UhRDHMXc1w&usqp=CAU" alt="" />
                 </div>
             </div>
+           
             {/* shop by category */}
-            <h3 className='text-center font-bold text-[40px] mt-4 mb-2'>Shop by Category</h3>
+            <h3 className='text-center font-bold text-[35px] mt-[32px] mb-2'>Shop by Category</h3>
             <div>
                 <Tabs>
                     <TabList>
@@ -132,6 +121,41 @@ const Body = () => {
                         </div>
                     </TabPanel>
                 </Tabs>
+            </div>
+
+            {/* extra section */}
+            <h3 className='text-center font-bold text-[35px] mt-[32px] mb-2'>Ordinary Toys</h3>
+            <div className='flex gap-3'>
+                <div className="card w-96 bg-base-100 shadow-xl">
+                    <figure><img className='h-[220px]' src="https://marveltoynews.com/wp-content/uploads/2016/05/Marvel-Legends-Civil-War-Spider-Man-Photo-Hi-Res.jpg" alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title">Shoes!</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div className="card-actions justify-end">
+                            <button className="btn btn-primary">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div className="card w-96 bg-base-100 shadow-xl">
+                    <figure><img className='h-[220px]' src="https://c1-ebgames.eb-cdn.com.au/merchandising/images/packshots/e0ac67d423a749c48a43a178d4e0fdae_Large.jpg" alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title">Shoes!</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div className="card-actions justify-end">
+                            <button className="btn btn-primary">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div className="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5XM1DePVAtoMouvoxnFwUnLHyJuFW72ZYrg&usqp=CAU" alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title">Shoes!</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div className="card-actions justify-end">
+                            <button className="btn btn-primary">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
