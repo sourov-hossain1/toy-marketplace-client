@@ -12,3 +12,28 @@
     height: 260px;
     width: 100%;
 }
+.tabs {
+    display: flex;
+  }
+  
+  .tab {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    display: block;
+    padding: 10px;
+    background-color: #eee;
+    cursor: pointer;
+  }
+
+  .panel-one{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
