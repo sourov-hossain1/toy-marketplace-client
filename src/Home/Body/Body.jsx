@@ -55,80 +55,77 @@ const Body = () => {
                 <Tabs>
                     <TabList>
                         <Tab>Marvel</Tab>
-                        <Tab>Spyder Man</Tab>
+                        <Tab>Spider Man</Tab>
                         <Tab>Robot</Tab>
                     </TabList>
 
                     <TabPanel>
-                        <h2>Marvel Category</h2>
                         <div className='panel-one'>
                             <div className="card card-side bg-base-100 shadow-xl">
                                 <figure><img className='w-72' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5XM1DePVAtoMouvoxnFwUnLHyJuFW72ZYrg&usqp=CAU" alt="Movie" /></figure>
                                 <div className="card-body">
-                                    <h2 className="card-title">New movie is released!</h2>
-                                    <p>Click the button to watch on Jetflix app.</p>
+                                    <h2 className="card-title">Marvel</h2>
+                                    <p>Price: 120$ <br /> Rating: 4.5 </p>
                                     <div className="card-actions justify-end">
-                                        <button className="btn btn-primary">Watch</button>
+                                        <button className="btn btn-primary">Details</button>
                                     </div>
                                 </div>
                             </div>
                             <div className="card card-side bg-base-100 shadow-xl">
-                                <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5XM1DePVAtoMouvoxnFwUnLHyJuFW72ZYrg&usqp=CAU" alt="Movie" /></figure>
+                                <figure><img className='w-72' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5XM1DePVAtoMouvoxnFwUnLHyJuFW72ZYrg&usqp=CAU" alt="Movie" /></figure>
                                 <div className="card-body">
-                                    <h2 className="card-title">New movie is released!</h2>
-                                    <p>Click the button to watch on Jetflix app.</p>
+                                    <h2 className="card-title">Marvel</h2>
+                                    <p>Price: 220$ <br /> Rating: 4.5 </p>
                                     <div className="card-actions justify-end">
-                                        <button className="btn btn-primary">Watch</button>
+                                        <button className="btn btn-primary">Details</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </TabPanel>
                     <TabPanel>
-                        <h2>Spyder Category</h2>
                         <div className='panel-one'>
                             <div className="card card-side bg-base-100 shadow-xl">
-                                <figure><img className='w-[287px] h-[267px]' src="https://marveltoynews.com/wp-content/uploads/2016/05/Marvel-Legends-Civil-War-Spider-Man-Photo-Hi-Res.jpg" alt="Movie" /></figure>
+                                <figure><img className='w-[287px] h-[268px]' src="https://marveltoynews.com/wp-content/uploads/2016/05/Marvel-Legends-Civil-War-Spider-Man-Photo-Hi-Res.jpg" alt="Movie" /></figure>
                                 <div className="card-body">
-                                    <h2 className="card-title">New movie is released!</h2>
-                                    <p>Click the button to watch on Jetflix app.</p>
+                                    <h2 className="card-title">Spider Man</h2>
+                                    <p>Price: 220$ <br /> Rating: 4.5 </p>
                                     <div className="card-actions justify-end">
-                                        <button className="btn btn-primary">Watch</button>
+                                        <button className="btn btn-primary">Details</button>
                                     </div>
                                 </div>
                             </div>
                             <div className="card card-side bg-base-100 shadow-xl">
-                                <figure><img className='w-[287px] h-[267px]' src="https://marveltoynews.com/wp-content/uploads/2016/05/Marvel-Legends-Civil-War-Spider-Man-Photo-Hi-Res.jpg" alt="Movie" /></figure>
+                                <figure><img className='w-[287px] h-[268px]' src="https://marveltoynews.com/wp-content/uploads/2016/05/Marvel-Legends-Civil-War-Spider-Man-Photo-Hi-Res.jpg" alt="Movie" /></figure>
                                 <div className="card-body">
-                                    <h2 className="card-title">New movie is released!</h2>
-                                    <p>Click the button to watch on Jetflix app.</p>
+                                    <h2 className="card-title">Spider Man</h2>
+                                    <p>Price: 94$ <br /> Rating: 4.5 </p>
                                     <div className="card-actions justify-end">
-                                        <button className="btn btn-primary">Watch</button>
+                                        <button className="btn btn-primary">Details</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </TabPanel>
                     <TabPanel>
-                        <h2>Robot Category</h2>
                         <div className='panel-one'>
                             <div className="card card-side bg-base-100 shadow-xl">
                                 <figure><img className='w-72' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5XM1DePVAtoMouvoxnFwUnLHyJuFW72ZYrg&usqp=CAU" alt="Movie" /></figure>
                                 <div className="card-body">
-                                    <h2 className="card-title">New movie is released!</h2>
-                                    <p>Click the button to watch on Jetflix app.</p>
+                                    <h2 className="card-title">Robot</h2>
+                                    <p>Price: 320$ <br /> Rating: 4.5 </p>
                                     <div className="card-actions justify-end">
-                                        <button className="btn btn-primary">Watch</button>
+                                        <button className="btn btn-primary">Details</button>
                                     </div>
                                 </div>
                             </div>
                             <div className="card card-side bg-base-100 shadow-xl">
                                 <figure><img className='w-[287px] h-[267px]' src="https://marveltoynews.com/wp-content/uploads/2016/05/Marvel-Legends-Civil-War-Spider-Man-Photo-Hi-Res.jpg" alt="Movie" /></figure>
                                 <div className="card-body">
-                                    <h2 className="card-title">New movie is released!</h2>
-                                    <p>Click the button to watch on Jetflix app.</p>
+                                    <h2 className="card-title">Robot</h2>
+                                    <p>Price: 420$ <br /> Rating: 4.5 </p>
                                     <div className="card-actions justify-end">
-                                        <button className="btn btn-primary">Watch</button>
+                                        <button className="btn btn-primary">Details</button>
                                     </div>
                                 </div>
                             </div>

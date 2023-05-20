@@ -15,7 +15,8 @@ const Navbar = () => {
                         <li><a>All Toys</a></li>
                         <li><a>My Toys</a></li>
                         <li><a>Add Toy</a></li>
-                        <li><a>Blogs</a></li>
+                        <Link to='/blogs'>Blogs</Link>
+                        
                     </ul>
                 </div>
                 <a className="btn btn-ghost normal-case text-xl">Marvel Toys</a>
@@ -26,7 +27,7 @@ const Navbar = () => {
                     <li><a>All Toys</a></li>
                     <li><a>My Toys</a></li>
                     <li><a>Add Toy</a></li>
-                    <li><a>Blogs</a></li>
+                    <Link to='/blogs'>Blogs</Link>
                 </ul>
             </div>
             <div className="navbar-end">
