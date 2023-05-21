@@ -7,6 +7,7 @@ import Blog from "../Home/Blogs/Blog";
 import AddToy from "../AddToy/AddToy";
 import MyToy from "../MyToys/MyToy";
 import Not from "../NotFound/Not";
+import AllToy from "../AllToy/AllToy";
 
 const router = createBrowserRouter([
     {
@@ -36,6 +37,11 @@ const router = createBrowserRouter([
         {
           path: '/mytoy',
           element: <MyToy></MyToy>,
+          loader: () => fetch('https://server-assignment-elaven.vercel.app/toys')
+        },
+        {
+          path: '/alltoy',
+          element: <AllToy></AllToy>,
           loader: () => fetch('https://server-assignment-elaven.vercel.app/toys')
         },
         {
