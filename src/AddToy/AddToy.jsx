@@ -20,7 +20,7 @@ const AddToy = () => {
         console.log(newToy);
 
         // send data to the server
-        fetch('http://localhost:5000/toys', {
+        fetch('https://server-assignment-elaven.vercel.app/toys', {
             method: 'POST',
             headers: {
                 'content-type' : 'application/json'

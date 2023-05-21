@@ -10,7 +10,7 @@ const MyToy = () => {
             <h2>This is your toys.{toys.length}</h2>
             <div className="grid md:grid-cols-2 gap-5">
                 {
-                    toys.map(toy => <ToyCard
+                    toys?.map(toy => <ToyCard
                         key={toy._id}
                         toy={toy}
                     ></ToyCard>)

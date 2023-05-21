@@ -1,7 +1,39 @@
-
+import Swal from 'sweetalert2'
 const ToyCard = ({ toy }) => {
 
-    const { photo, name, sellerName, sellerEmail, catagory, price, rating, quantity, deccription } = toy;
+    const { _id, photo, name, catagory, price, rating, quantity, deccription } = toy;
+
+    const handleDelete = _id => {
+        console.log(_id);
+        Swal.fire({
+            title: 'Are you sure?',
+            text: "You won't be able to revert this!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Yes, delete it!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+
+
+                fetch(`https://server-assignment-elaven.vercel.app/toys/${_id}`, {
+                    method:'DELETE'
+                })
+                    .then(res => res.json())
+                    .then(data => {
+                        console.log(data);
+                        if (data.deletedCount > 0) {
+                            Swal.fire(
+                                'Deleted!',
+                                'Your toys has been deleted.',
+                                'success'
+                            )
+                        }
+                    })
+            }
+        })
+    }
 
     return (
         <div className="card card-side bg-base-100 shadow-xl">
@@ -12,7 +44,7 @@ const ToyCard = ({ toy }) => {
                 <div className="card-actions justify-end">
                     <div className="btn-group btn-group-vertical space-y-3">
                         <button className="btn btn-active">Updata</button>
-                        <button className="btn">Delete</button>
+                        <button onClick={() =>{handleDelete(_id)}} className="btn bg-orange-600">Delete</button>
                     </div>
                 </div>
             </div>

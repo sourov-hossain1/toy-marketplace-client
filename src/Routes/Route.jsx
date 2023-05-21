@@ -6,6 +6,7 @@ import Register from "../Home/Register/Register";
 import Blog from "../Home/Blogs/Blog";
 import AddToy from "../AddToy/AddToy";
 import MyToy from "../MyToys/MyToy";
+import Not from "../NotFound/Not";
 
 const router = createBrowserRouter([
     {
@@ -35,7 +36,11 @@ const router = createBrowserRouter([
         {
           path: '/mytoy',
           element: <MyToy></MyToy>,
-          loader: () => fetch('http://localhost:5000/toys')
+          loader: () => fetch('https://server-assignment-elaven.vercel.app/toys')
+        },
+        {
+          path: '/*',
+          element: <Not></Not>
         }
       ]
     },
