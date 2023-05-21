@@ -19,7 +19,7 @@ const Navbar = () => {
 
                     </ul>
                 </div>
-                <a><img className="w-[60px] rounded-[2px]" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/1200px-Marvel_Logo.svg.png" alt="" /></a>
+                <a><img className="w-[60px] rounded-[2px] ms-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/1200px-Marvel_Logo.svg.png" alt="" /></a>
                 <a className="btn btn-ghost normal-case text-xl">Marvel Toys</a>
             </div>
             <div className="navbar-center hidden lg:flex">
