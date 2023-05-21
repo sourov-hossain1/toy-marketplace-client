@@ -53,7 +53,7 @@ const AddToy = () => {
                             <span className="label-text">Name</span>
                         </label>
                         <label className="input-group">
-                            <input type="text" name="name" placeholder="Coffee Name" className="input input-bordered w-full" />
+                            <input type="text" name="name" placeholder="Toys Name" className="input input-bordered w-full" />
                         </label>
                     </div>
                 </div>
