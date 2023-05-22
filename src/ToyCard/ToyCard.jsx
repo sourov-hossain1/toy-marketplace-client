@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Swal from 'sweetalert2'
 const ToyCard = ({ toy }) => {
 
@@ -17,7 +18,7 @@ const ToyCard = ({ toy }) => {
             if (result.isConfirmed) {
 
 
-                fetch(`https://server-assignment-elaven.vercel.app/toys/${_id}`, {
+                fetch(`  https://server-assignment-elaven.vercel.app/toys/${_id}`, {
                     method:'DELETE'
                 })
                     .then(res => res.json())
@@ -43,7 +44,7 @@ const ToyCard = ({ toy }) => {
                 <p>Category: {catagory} <br /> Price: {price} <br /> Description: {deccription}</p>
                 <div className="card-actions justify-end">
                     <div className="btn-group btn-group-vertical space-y-3">
-                        <button className="btn btn-active">Updata</button>
+                        <Link><button className="btn btn-active">Updata</button></Link>
                         <button onClick={() =>{handleDelete(_id)}} className="btn bg-orange-600">Delete</button>
                     </div>
                 </div>

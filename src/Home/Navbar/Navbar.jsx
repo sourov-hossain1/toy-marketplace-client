@@ -6,7 +6,7 @@ import { AuthContext } from "../../Providers/AuthProviders";
 
 const Navbar = () => {
 
-    const {user} = useContext(AuthContext);
+    const { user } = useContext(AuthContext);
     console.log(user);
 
     return (
@@ -38,14 +38,14 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <div className="me-4">
-                    <Link to='/login'>Login</Link>
-                </div>
-                <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+                {user ? <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                     <div className="w-10 rounded-full">
-                        <img src={user.photoURL} />
+                        <img src={user?.photoURL} />
                     </div>
-                </label>
+                </label> :
+                    <div className="me-4">
+                        <Link to='/login'>Login</Link>
+                    </div>}
             </div>
         </div>
     );

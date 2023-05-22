@@ -10,6 +10,7 @@ import Not from "../NotFound/Not";
 import AllToy from "../AllToy/AllToy";
 import Private from "../Private/Private";
 
+
 const router = createBrowserRouter([
     {
       path: "/",
@@ -38,12 +39,12 @@ const router = createBrowserRouter([
         {
           path: '/mytoy',
           element: <Private><MyToy></MyToy></Private>,
-          loader: () => fetch('https://server-assignment-elaven.vercel.app/toys')
+          loader: () => fetch('  https://server-assignment-elaven.vercel.app/toys')
         },
         {
           path: '/alltoy',
           element: <AllToy></AllToy>,
-          loader: () => fetch('https://server-assignment-elaven.vercel.app/toys')
+          loader: () => fetch('  https://server-assignment-elaven.vercel.app/toys')
         },
         {
           path: '/*',

@@ -7,7 +7,7 @@ const MyToy = () => {
 
     return (
         <div className="m-18">
-            <h2>This is your toys.{toys.length}</h2>
+            <h2 className="text-center font-bold text-2xl my-4">Your Total Toys: {toys.length}</h2>
             <div className="grid md:grid-cols-2 gap-5">
                 {
                     toys?.map(toy => <ToyCard
