@@ -125,7 +125,7 @@ const Body = () => {
 
             {/* extra section */}
             <h3 className='text-center font-bold text-[35px] mt-[32px] mb-2'>Ordinary Toys</h3>
-            <div className='flex gap-3'>
+            <div className='ordinary'>
                 <div className="card w-96 bg-base-100 shadow-xl">
                     <figure><img className='h-[220px]' src="https://marveltoynews.com/wp-content/uploads/2016/05/Marvel-Legends-Civil-War-Spider-Man-Photo-Hi-Res.jpg" alt="Shoes" /></figure>
                     <div className="card-body">

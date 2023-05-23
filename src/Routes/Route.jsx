@@ -39,19 +39,20 @@ const router = createBrowserRouter([
         {
           path: '/mytoy',
           element: <Private><MyToy></MyToy></Private>,
-          loader: () => fetch('  https://server-assignment-elaven.vercel.app/toys')
+          loader: () => fetch('https://server-assignment-elaven-sourov-hossain1.vercel.app/toys')
         },
         {
           path: '/alltoy',
           element: <AllToy></AllToy>,
-          loader: () => fetch('  https://server-assignment-elaven.vercel.app/toys')
-        },
-        {
-          path: '/*',
-          element: <Not></Not>
+          loader: () => fetch('https://server-assignment-elaven-sourov-hossain1.vercel.app/toys')
         }
+        
       ]
     },
+    {
+      path: '/*',
+      element: <Not></Not>
+    }
   ]);
 
   export default router;

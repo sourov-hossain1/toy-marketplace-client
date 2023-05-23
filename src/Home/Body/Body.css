@@ -1,58 +1,102 @@
-.banner-section{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    background-color: rgb(236 252 203);
-    padding: 100px 40px 20px 20px;
+.banner-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgb(236 252 203);
+  padding: 100px 40px 20px 20px;
 }
-.banner-title{
-    font-size: 40px;
-    font-family: bold;
+
+.banner-title {
+  font-size: 40px;
+  font-family: bold;
 }
-.right-banner img{
-    height: 260px;
-    width: 100%;
-    border-radius: 8px;
+
+.right-banner img {
+  height: 260px;
+  width: 100%;
+  border-radius: 8px;
 }
+
 .tabs {
-    display: flex;
-  }
-  
-  .tab {
-    flex: 1;
-    margin-right: 10px;
-  }
-  
-  input[type="radio"] {
-    display: none;
-  }
-  
-  label {
-    display: block;
-    padding: 10px;
-    background-color: #eee;
-    cursor: pointer;
+  display: flex;
+}
+
+.tab {
+  flex: 1;
+  margin-right: 10px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  display: block;
+  padding: 10px;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.panel-one {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.gallery-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.g-one {
+  /* border: 1px solid red; */
+  height: 160px;
+}
+
+.g-one img {
+  height: 100%;
+  width: 100%;
+}
+
+.extra-part-two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.ordinary{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+@media only screen and (max-width: 675px) {
+  .banner-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
   }
 
-  .panel-one{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
   .gallery-section{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 20px;
   }
-  .g-one{
-    /* border: 1px solid red; */
-    height: 160px;
-  }
-  .g-one img{
-    height: 100%;
-    width: 100%;
-  }
-  .extra-part-two{
+
+  .panel-one {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 20px;
   }
+
+  .ordinary{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .extra-part-two {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+}

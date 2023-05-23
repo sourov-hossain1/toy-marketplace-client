@@ -18,7 +18,7 @@ const ToyCard = ({ toy }) => {
             if (result.isConfirmed) {
 
 
-                fetch(`  https://server-assignment-elaven.vercel.app/toys/${_id}`, {
+                fetch(`https://server-assignment-elaven-sourov-hossain1.vercel.app/toys/${_id}`, {
                     method:'DELETE'
                 })
                     .then(res => res.json())
