@@ -1,9 +1,12 @@
 import { useLoaderData } from "react-router-dom";
 import ToyCard from "../ToyCard/ToyCard";
+import useTitle from "../hooks/useTitle";
 
 const MyToy = () => {
 
     const toys = useLoaderData();
+
+    useTitle('My Toy')
 
     return (
         <div className="m-18">

@@ -1,8 +1,11 @@
 import { useLoaderData } from "react-router-dom";
 import ShowToy from "./ShowToy";
+import useTitle from "../hooks/useTitle";
 
 const AllToy = () => {
 
+
+    useTitle('All Toy')
     const allToys = useLoaderData();
     const firstTwentyData = allToys.slice(0, 20)
 

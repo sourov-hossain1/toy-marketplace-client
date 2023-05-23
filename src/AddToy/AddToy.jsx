@@ -1,5 +1,8 @@
+import useTitle from "../hooks/useTitle";
 
 const AddToy = () => {
+
+    useTitle('Add Toy');
 
     const handleAddToy = event => {
         event.preventDefault();
@@ -20,7 +23,8 @@ const AddToy = () => {
         console.log(newToy);
 
         // send data to the server
-        fetch('https://server-assignment-elaven-sourov-hossain1.vercel.app/toys', {
+        // https://server-assignment-elaven-sourov-hossain1.vercel.app/toys
+        fetch('https://server-assignment-elaven.vercel.app/toys', {
             method: 'POST',
             headers: {
                 'content-type' : 'application/json'

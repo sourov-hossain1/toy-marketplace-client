@@ -1,8 +1,12 @@
 import './Body.css'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import useTitle from '../../hooks/useTitle';
 
 const Body = () => {
+
+    useTitle('Home')
+
     return (
         <div>
             <div className='banner-section'>
